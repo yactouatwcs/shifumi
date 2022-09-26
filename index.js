@@ -7,7 +7,7 @@
   function getCpuChoice() {
   // @review since we only care about 0 and 1 in the conditions, maybe we want to top the randomness to 2
   // cpuChoice = Math.floor(Math.random() * 3);
-  const cpuChoice = Math.floor(Math.random() * 2);
+  let cpuChoice = Math.floor(Math.random() * 2);
 
   // @review a switch/case here would be relevant =>
   switch (cpuChoice) {
